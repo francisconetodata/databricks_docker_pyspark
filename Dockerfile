@@ -1,8 +1,6 @@
 # Use a imagem oficial do Spark com Python
-FROM apache/spark-py:3.5.0
+FROM apache/spark-py
 
-# Mantenedor
-LABEL maintainer="Seu Nome <seu.email@exemplo.com>"
 
 # Configurações de ambiente
 ENV SPARK_HOME=/opt/spark \
